@@ -1,0 +1,293 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+}
+header{
+    background:rgb(79 ,7 ,93);
+    padding:20px 0;
+}
+.conteiner{
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+h1{
+    width: 30%;
+}
+nav {
+    position: absolute;
+    top: 31px;
+    right: 50px;
+}
+nav ul .b img{
+ width: 30%;
+ transition: all .4s ease;
+}
+nav li {
+    display:inline;
+    margin: 10px;
+}
+
+nav .a:hover{
+    background-color: yellow;
+    font-size: 40px;  
+}
+nav .b img:hover{
+    width: 35%;
+}
+nav .a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    transition: all 0.4s ease;
+    -webkit-transition: all .4s ease;
+    padding: 5px;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 10px;
+}
+nav a.a:before {
+    content: attr(data-title);
+    background-color: #FFF;
+    color: #000;
+    font-size: 13px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    position: absolute;
+    left: -5px;
+    bottom: 60px;
+    width: 60px;
+    opacity: 0;
+    transition: all .4s ease;
+    border-radius: 10px;
+}
+ nav a.a:hover:after,
+ nav a.a:hover:before {
+    opacity: 1;
+}
+.logo{
+    margin-top: 10px;
+    width: 250px;
+    height: 80px;
+}
+.cabecalho{
+    position: relative; 
+    width: 1000px;
+    height: 67px;
+    margin:auto;
+}
+.cabecalho1{
+    width: 100%;
+}
+.texto{
+    position: relative; 
+    width: 50%;
+    margin:auto;
+    padding: 0 0 5em 0;
+}
+.texto div p:last-child{
+    font-weight: bolder;
+}
+.texto div h2:last-child{
+    padding: 1em 0 1em;
+}
+h2{
+    text-align: center;
+    padding: 2em 0 1em;
+    color: rgb(4, 1, 7);
+    font-weight: bold;
+    font-size: 40px;
+}
+.sobre {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    padding: 0 0 0.5em;
+}
+.sobre p{
+    text-align:justify;
+    color: rgb(4, 1, 7);
+    font-size: 25px;
+    line-height: 40px;
+}
+.img{
+    float: left;
+    position: relative;
+    width: 11%;
+    padding:5em 8em 2em 8em;
+}
+.img p{
+    margin: 0 0 1em 0;
+    font-size: 15px;
+}
+.img1{
+    width: 100%;
+}
+.programa{
+    color: rgb(4, 1, 7);
+    position: relative; 
+    width: 16%;
+    margin:6em 5em 0 3em;
+    padding: 1em;
+    float:right;    
+    text-align:justify;
+    font-size: 14px;
+    line-height: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.programa h2{
+    padding:0 0 1em 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.programa .bold{
+    font-weight: bold;
+}
+.programa p:first-child{
+    color: rgb(80, 80, 80);
+    margin: 0 0 1em 0;
+}
+
+#mais{
+    display: none;
+}
+
+.projeto{
+    width: 940px;
+    padding: 0.5em 1em 1em 1em;
+    border: 2px solid white;
+    border-radius: 5px; 
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 400ms;
+}
+
+.projeto:hover{
+    font-weight: bold;
+    background: rgb(79, 7 ,93);
+    width: 50%;
+    line-height: 60px;
+}
+
+.conteiner1{
+    position: relative;
+    width: 13%;
+    margin: auto auto 0 auto;
+    text-align: center;  
+
+}
+
+.textoyaman{
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.yaman{
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.formulario{
+    padding: 10em 0;
+    background: linear-gradient(white ,rgb(79 7 93));
+}
+.mensagem{
+    margin: 2em 300px;
+}
+form label{
+    display: block;
+    padding: 1em 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+form input, textarea{
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+form input[type="email"]{
+    height: 30px;
+    width: 250px;
+}
+.enviar{
+    width: 10%;
+    padding: 0.5em;
+    background: white;
+    color: rgb(75, 5, 121);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.enviar:hover{
+    transform: scale(1.1);
+    background: yellow;
+}
+.transicao{
+    background:rgb(79,7,93);
+    text-align: center;
+    padding: 1em 1em 1.5em 1em;
+}
+.contact{
+    background:whitesmoke;
+    text-align: center;
+}
+.video{
+    text-align: center;
+    padding: 3em 0 0.5em 0;
+}
+.video iframe{
+    border:3px solid black
+}
+footer{
+    background:url("imagens/1008.png");
+    padding: 1em 0 0 0;
+    line-height: 10px;
+}
+.phoenix{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 0.5em;
+    width: 15%;
+}
+footer div img{
+    border: 3px solid;
+    border-radius: 65px 65px;
+}
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+.contato{
+    padding:0.5em 0;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+.contatos{
+    padding: 0em 0em 1em;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
