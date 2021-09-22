@@ -1,0 +1,1 @@
+var button = document.querySelector('button'); button.onclick = function leiaMais(){var botao = document.getElementById("botao");var maisTexto = document.getElementById("mais");if(maisTexto.style.display === "none"){maisTexto.style.display="inline"; botao.innerHTML="Leia menos";}else{ maisTexto.style.display="none";botao.innerHTML="Leia Mais";};}
